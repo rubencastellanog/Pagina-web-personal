@@ -1,5 +1,5 @@
 body{
-    background-color: rgba(29, 110, 102, 0.808);
+    background-color: rgba(138, 199, 193, 0.808);
 }
 
 ul {
@@ -14,7 +14,14 @@ a {
     box-sizing: border-box;
 }
 
-header {
+.greeting {
+  display: grid;
+  align-items: center;
+  text-align: center;
+  gap: 1.2em;
+}
+
+header, footer{
     display: flex;
     background-color: rgb(12, 146, 30);
     align-items: center;
@@ -23,7 +30,7 @@ header {
     padding: 20px;
 }
 
-nav ul{
+nav {
     display: flex;
     gap: 1.2em;
     align-items:end;
